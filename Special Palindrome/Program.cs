@@ -11,7 +11,7 @@ namespace Special_Palindrome
         {
             Console.WriteLine("Enter the string to determinate how many palindromic substrings can be formed :\n");
             string s = Console.ReadLine().Trim();
-            //Se Input è minore di 0 Esco dal Soft
+            //Se Input è minore o uguale a 0 Esco dal Soft
             if (s.Length <= 0)
                 Environment.Exit(0);
             Console.WriteLine("\nPartial Result :\n");
